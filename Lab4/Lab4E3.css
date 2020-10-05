@@ -1,0 +1,23 @@
+.divide{
+    background-color: green;
+}
+
+.box{
+  border: black dashed;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+
+.red{
+  color: red;
+}
+
+.darkgreen{
+  color: darkgreen;
+}
+
+.purple{
+  color: purple;
+}
