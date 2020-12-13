@@ -1,0 +1,86 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<title>Chiara's Library</title>
+		<link href="Clock.css" rel="stylesheet" type="text/css" />
+	    <script type="text/javascript" src="Clock.js"></script>
+	</head>
+
+	<body>
+
+		<div class="header">
+			<h1>Chiara's Library</h1>
+		</div>
+
+		<div class="navbar">
+			<a href="Assignment4.html">Home</a>
+			<a href="Reviews.html">Reviews</a>
+			<a href="Clock.html">Clock</a>
+		</div>
+
+		<div class="mainleft">
+			<h2>Welcome!</h2>
+				<p>This is the clock page. Refresh this page once you start reading and click the button below once you stop, to see how long you've been reading.</p>
+
+				<button type="button" onclick="stopTime()">STOP TIME</button>
+
+				<br/>
+				<br/>
+
+				<p>How many books have you read in the past two months?</p>
+
+				<form action="" name="myform">
+					<input type="text" id="inputA" value="books read this month"/>+<input type="text" id="inputB" value="books read last month"/>
+					<button type="button" onclick="calculation()">=</button>
+				</form>
+
+				<p>Books Read:</p><p id="output">0</p>
+
+		</div>
+
+
+		<div class="mainright">
+			<h4>Contact me</h4>
+
+			<form action="" name="contactme" class="form">
+				<label for="name">Name:</label>
+					<br/>
+					<input type="text" id="name" name="name"/>
+					<br/>
+					<br/>
+
+				<label for="email">Email:</label>
+					<br/>
+					<input type="text" id="email" name="email"/>
+					<br/>
+					<br/>
+
+				<label for="message">Message:</label>
+					<br/>
+					<input type="text" id="message" name="message"/>
+					<br/>
+					<br/>
+				<input type="submit"/>
+			</form>
+
+		</div>
+
+
+		<div class="footer">
+			<p id="copyright">Copyright &copy; 2020</p>
+
+				<a href="https://www.instagram.com/"/><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" alt="Instragram Logo" class="instagram"/>
+
+				<a href="https://twitter.com/"/><img src="https://www.pinclipart.com/picdir/big/20-203122_follow-us-twitter-logo-square-png-clipart.png" alt="Twitter Logo" class="twitter"/>
+
+				<a href="https://www.facebook.com/"/><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/480px-Facebook_logo_%28square%29.png" alt="Facebook Logo" class="facebook"/>
+		</div>
+
+
+	</body>
+
+</html>

@@ -1,0 +1,83 @@
+.header {
+  padding: 35px;
+  text-align: center;
+  background: lightblue;
+  color: #333;
+  font-size: 25px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  top: 210px;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Code from here*/
+.navbar a:hover {
+  background: lightblue;
+  color: black;
+}
+/* until here. “CSS:Hover Selector.” w3schools.Com, www.w3schools.com/cssref/sel_hover.asp. */
+
+
+.content{
+    display: inline;
+}
+
+.Content{
+  width: 100%;
+  align-items: center;
+}
+
+.mainleft {
+  width: 30%;
+  height: 500px;
+  float: left;
+  color: #333;
+  padding: 10px;
+}
+
+.maincenter {
+  width: 30%;
+  height: 500px;
+  float: left;
+  color: #333;
+  padding: 10px;
+}
+
+.mainright {
+  width: 30%;
+  height: 500px;
+  float: right;
+  color: #333;
+  padding: 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: lightblue;
+  text-align: center;
+  font-style: italic;
+}
+
+.instagram, .twitter, .facebook{
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  padding-left: 5px;
+}
